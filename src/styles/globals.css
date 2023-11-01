@@ -1,8 +1,10 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import url(gridProducts.css);
 
-body {
-  background-color: rgb(252, 238, 221);
+html, body {
+  margin: 0 auto;
+  padding: 0;
   scroll-behavior: smooth;
 }

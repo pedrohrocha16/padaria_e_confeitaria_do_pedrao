@@ -1,12 +1,31 @@
 import React from 'react'
 import CanvaBar from './Canva'
+import Image from 'next/image'
+
+import { Orbitron, Indie_Flower } from 'next/font/google'
 
 type Props = {}
 
-function NavBar({}: Props) {
+const titleFontFamily = Orbitron({
+  weight: '400',
+  subsets: ['latin'],
+})
+const subFontFamily = Indie_Flower({
+  weight: '400',
+  subsets: ['latin'],
+})
+
+function NavBar({ }: Props) {
   return (
-    <div>
-      <CanvaBar />
+    <div className='p-[10px]'>
+      <div>
+        <CanvaBar />
+      </div>
+      <div className='flex flex-col justify-center items-center h-[280px]'>
+        <Image src="/logo.png" width={200} height={200} alt='logo' className='mb-[20px]' />
+        <h1 className={titleFontFamily.className}>Padaria do Pedrão</h1>
+        <p className={subFontFamily.className}>feito com amor e dedicação...</p>
+      </div>
     </div>
   )
 }
