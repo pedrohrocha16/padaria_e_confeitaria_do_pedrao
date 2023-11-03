@@ -13,7 +13,7 @@ function CanvaBar() {
       <RiMenu5Fill onClick={handleShow} className="m-[25px] text-[35px] text-yellow-700"/>
       <Offcanvas show={show} onHide={handleClose}>
         <Offcanvas.Header closeButton>
-          <Offcanvas.Title>Padaria e Confeitaria do Pedrão</Offcanvas.Title>
+          <Offcanvas.Title>Padaria do Pedrão</Offcanvas.Title>
         </Offcanvas.Header>
         <Offcanvas.Body>
           conteúdo
