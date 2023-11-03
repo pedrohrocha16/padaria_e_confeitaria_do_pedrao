@@ -13,11 +13,10 @@ function CanvaBar() {
       <RiMenu5Fill onClick={handleShow} className="m-[25px] text-[35px] text-yellow-700"/>
       <Offcanvas show={show} onHide={handleClose}>
         <Offcanvas.Header closeButton>
-          <Offcanvas.Title>Offcanvas</Offcanvas.Title>
+          <Offcanvas.Title>Padaria e Confeitaria do Pedrão</Offcanvas.Title>
         </Offcanvas.Header>
         <Offcanvas.Body>
-          Some text as placeholder. In real life you can have the elements you
-          have chosen. Like, text, images, lists, etc.
+          conteúdo
         </Offcanvas.Body>
       </Offcanvas>
     </>

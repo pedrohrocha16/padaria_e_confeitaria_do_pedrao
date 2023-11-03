@@ -2,6 +2,7 @@ import React from 'react'
 import SlideImg from '../products/Carousel'
 import History from '../history/History'
 import Localization from '../localization/Localization'
+import Order from '../order/Order'
 
 type Props = {}
 
@@ -15,6 +16,9 @@ function MainContent({ }: Props) {
          </div>
          <div className='flex justify-center items-center w-[100%] bg-gray-200 min-h-[300px]'>
             <History />
+         </div>
+         <div>
+            <Order />
          </div>
          <div className='flex justify-center items-center w-[100%] bg-gradient-to-r from-orange-200 to-red-200 min-h-[300px]'>
             <Localization />
