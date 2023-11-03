@@ -4,13 +4,8 @@ import { Footer } from 'flowbite-react';
 
 function Rodape() {
   return (
-    <Footer container>
+    <Footer container className='w-[100%] flex flex-col justify-center items-center'>
       <Footer.Copyright by="Padaria e Confeitaria do Pedrão" year={2023} />
-      <Footer.LinkGroup>
-        <Footer.Link href="#">História</Footer.Link>
-        <Footer.Link href="#">Trabalhe Conosco</Footer.Link>
-        <Footer.Link href="#">Contato</Footer.Link>
-      </Footer.LinkGroup>
     </Footer>
   );
 }

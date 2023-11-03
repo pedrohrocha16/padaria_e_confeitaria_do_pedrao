@@ -11,7 +11,7 @@ function Container({ children }: any) {
          <div className="flex justify-center w-full items-center">
             {children}
          </div>
-         <div className='w-[100%] p-1 flex justify-between'>
+         <div>
             <Rodape />
          </div>
       </div>

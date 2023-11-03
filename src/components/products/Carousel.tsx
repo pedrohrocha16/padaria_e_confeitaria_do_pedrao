@@ -9,7 +9,7 @@ function SlideImg() {
          <Carousel>
             <img src={'/products/sobremesa.jpg'} alt="..." className='h-[280px]' />
             <img src={'/products/biscoitos.jpg'} alt="..." className='h-[280px]' />
-            <img src={'/products/bolo.jpg'} alt="..." className='h-[280px]' />
+            <img src={'/products/bolo.jpg'} alt="..." className='max-h-[280px]' />
             <img src={'/products/bolos_confeitados.jpg'} alt="..." className='h-[280px]' />
             <img src={'/products/capuccino.jpg'} alt="..." className='h-[280px]' />
             <img src={'/products/chef.jpg'} alt="..." className='h-[280px]' />
