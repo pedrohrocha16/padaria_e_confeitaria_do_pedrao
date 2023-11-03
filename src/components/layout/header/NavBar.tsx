@@ -1,19 +1,9 @@
 import React from 'react'
 import CanvaBar from './Canva'
 import Image from 'next/image'
-
-import { Orbitron, Indie_Flower } from 'next/font/google'
+import { titleFontFamily, subFontFamily } from '@/styles/fontes/Fontes'
 
 type Props = {}
-
-const titleFontFamily = Orbitron({
-  weight: '400',
-  subsets: ['latin'],
-})
-const subFontFamily = Indie_Flower({
-  weight: '400',
-  subsets: ['latin'],
-})
 
 function NavBar({ }: Props) {
   return (

@@ -17,6 +17,6 @@
       "@/*": ["./src/*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "src/components/Container.Jsx", "src/components/layout/footer/Footer.js"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "src/components/Container.Jsx", "src/components/layout/footer/Footer.js", "src/components/products/Carousel.js"],
   "exclude": ["node_modules"]
 }
